@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 10px;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    font: 400 1.6rem/1 'Raleway', sans-serif;
+    background-color: #b07cf7;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a, button {
+    transition: all .4s ease-in;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog__title {
+    font: 700 9rem/0.27 'Raleway', sans-serif;
+    margin-top: 120px;
+}
+
+.blog__subtitle {
+    font: 300 1.7rem/1.5 'Raleway', sans-serif;
+    max-width: 570px;
+    margin: -13px auto 35px;
+}
+
+.blog__article {
+    color: #fff;
+    display: inline-block;
+    margin: 12px;
+    width: 370px;
+    height: 310px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 50%,rgba(0,0,0,0.65) 100%);
+}
+
+.blog__article:hover,
+.blog__article:focus,
+.blog__article:active {
+    transform: scale(1.05);
+}
+
+.article__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.article__date {
+    margin: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 27px;
+}
+
+.article__date--month {
+    font-size: 2.1rem ;
+}
+
+.article__head {
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    margin-left: 22px;
+    margin-bottom: 22px;
+}
+
+.article__title {
+    font-weight: 700;
+    line-height: 2.5rem;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.article__author {
+    font-weight: 300;
+}
+
+.blog__btn {
+    display: block;
+    margin: 40px auto 0;
+    font: 300 2rem/1.25 'Raleway', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    background-color: #f72b3b;
+    border: none;
+    padding: 17px 42px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.blog__btn:hover,
+.blog__btn:focus,
+.blog__btn:active {
+    transform: scale(1.05);
+}
