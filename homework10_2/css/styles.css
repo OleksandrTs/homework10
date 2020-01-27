@@ -78,9 +78,9 @@ a, button {
     align-items: center;
 }
 
-.person__img:hover .person__icon-wrap,
-.person__img:focus .person__icon-wrap,
-.person__img:active .person__icon-wrap {
+.person__img:hover .person__social-wrap,
+.person__img:focus .person__social-wrap,
+.person__img:active .person__social-wrap {
     z-index: 2;
 }
 
